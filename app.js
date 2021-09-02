@@ -1,15 +1,44 @@
-console.log("Hello world..!!");
+// Data types
+// Primitive or Non Primitive
 
-console.log(12131313);
+// Primitive Data types _______________________
 
-console.log({ name: "Kumaran" });
+var name ="Kumaran"
+name = "Bk"
 
-console.log(true)
-console.log(false)
+name = ""
 
-console.log(false, 133234442, 'this is string', { name: "Kumaran" });
+console.log(name)
 
-console.warn("this is warning!")
+let age = 23
+let number = 2322424242542323424344425242535425252
+let number2 = 2322.43
 
-console.error("this is an error!")
+console.log(age)
+console.log(number)
 
+console.log(typeof number)
+console.log(typeof number2)
+
+let x = 222;
+let Name = "kumaran"
+
+console.log(typeof Name)
+
+let brand
+console.log(brand)
+
+let xy = null
+console.log(xy)
+let isfalse = false
+let istrue = false
+
+
+
+//Non primitive Datatype _____________________...
+
+let arr = [1,2,3,4,5,6]
+arr.push("value")
+arr.push(true)
+arr.unshift(false)
+console.log(arr)
