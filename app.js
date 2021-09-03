@@ -1,44 +1,37 @@
-// Data types
-// Primitive or Non Primitive
+// Arithmetic operators
 
-// Primitive Data types _______________________
+// let age = 23;
+// age = 20;
+// console.log(age);
 
-var name ="Kumaran"
-name = "Bk"
+// const specfic_name = "Kumaran";
+// // const can be re assign 
+// console.log(specfic_name)
 
-name = ""
+const a = 2;
+const b = 3;
+let c = 0;
 
-console.log(name)
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a**b);
+console.log(a||b);
+console.log(b%a);
 
-let age = 23
-let number = 2322424242542323424344425242535425252
-let number2 = 2322.43
+console.log("-----------------------------")
 
-console.log(age)
-console.log(number)
+// Assignment Operators
+c += 5;
+// c = c + 1
+c++;
 
-console.log(typeof number)
-console.log(typeof number2)
+c+=3
+c-=3
+c *= 3;
+c /=2
+c *=3
+c**=2
 
-let x = 222;
-let Name = "kumaran"
-
-console.log(typeof Name)
-
-let brand
-console.log(brand)
-
-let xy = null
-console.log(xy)
-let isfalse = false
-let istrue = false
-
-
-
-//Non primitive Datatype _____________________...
-
-let arr = [1,2,3,4,5,6]
-arr.push("value")
-arr.push(true)
-arr.unshift(false)
-console.log(arr)
+console.log(c)
