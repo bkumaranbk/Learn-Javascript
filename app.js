@@ -1,18 +1,12 @@
-// Conditional Statment if
+// const element = document.getElementById("selectme");
 
-// Checks weather the number is even or odd
+// const element = document.getElementsByClassName("heading");
 
-const b = 0 ;
 
-if(typeof b === 'number' && b != 0){
-    if (b % 2 === 0){
-        console.log("Even")
-    }else{
-        console.log("Odd")
-    }
-    
-}else if(b == 0){
-        console.log("0 cant be a odd number or even nuber")
-}else{
-        console.error("This is not a number")
-}
+// const element = document.getElementsByTagName("h2")
+
+const element = document.querySelector('h3.heading')
+// const element = document.querySelectorAll('.heading')
+
+
+console.log(element)
