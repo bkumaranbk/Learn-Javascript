@@ -1,33 +1,15 @@
-// const element = document.querySelector("#selectme");
+const button = document.querySelector('button');
+const element = document.querySelector('#selectme');
+const body = document.querySelector('body');
 
-// element.innerHTML = "Hello world JS !"
+// console.log(button, element)
 
-// element.style.color = "cyan"
-// element.style = "40px"
-// element.style = "display:none"
+button.addEventListener('click', ()=>{
+    // element.style = "background:dodgerblue";
+    element.classList.toggle('dodgorblue')
+})
 
-// console.log(element.classList)
-
-// element.classList.add("five")
-// console.log(element.classList)
-
-// element.classList.remove("one")
-// console.log(element.classList)
-
-// ==============================================
-// const body = document.querySelector('body');
-// console.log(body.classList.toggle('dark'))
-
-//==========Pusdo Code===========
-// if(body has class 'dark'){
-
-// }else{
-
-// }
-
-//==================================================
-const element = document.querySelector("#selectme");
-
-const value = element.classList.contains('one')
-
-console.log(value)
+button.addEventListener('click', ()=>{
+    // element.style = "background:dodgerblue";
+    body.classList.toggle('dark')
+})
