@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,28 +8,33 @@
     <title>Document</title>
     <script defer src="./app.js"></script>
     <style>
-        body {
-            background-color: rgb(112, 103, 103);
-            color: #f1f1f1;
-        }
+      div.images img {
+        width: 200px;
+      }
 
-        .dodgorblue{
-            background: dodgerblue;
-        }
-
-        .dark{
-            background-color: rgb(0, 0, 0);
-        }
+      div.images img:hover {
+        cursor: pointer;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div class="one two three four" id="selectme">
-        Lorem ipsum dolor sit amet consectetur
+  <body>
+    <div class="images">
+      <img
+        id="rock"
+        src="https://www.svgrepo.com/show/323925/rock.svg"
+        alt=""
+      />
+      <img
+        id="paper"
+        src="https://www.svgrepo.com/show/318481/paper.svg"
+        alt=""
+      />
+      <img
+        id="scissor"
+        src="https://www.svgrepo.com/show/168499/scissors.svg"
+        alt=""
+      />
     </div>
-    <button>
-        Click me
-    </button>
-</body>
-
+  </body>
 </html>
