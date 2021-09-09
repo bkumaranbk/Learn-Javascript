@@ -1,32 +1,16 @@
-let ranks = [1,2,3];
-// const newArr = ranks.map((e) => console.log(e+1));
+let ranks = [1,2,3,4,5,6,7];
 
-// console.log(
-//     ranks.map((e) => (e+1)));
-
-
-
-// console.log(
-//     ranks.map((e) => {
-//         return (e+1)
-//     } ));
-
-// console.log(
-//     ranks.map((e, index) => {
-//         return (index)
-//     } )); //map returns 
-
-// console.log(
-//     ranks.forEach((e) => {
-//         return (e+1)
-//     } )); //forEach Does not return any thing
-
-
-console.log(
-    ranks.map((e) => {
+let newMapArr = ranks.map((e) => {
         if(e%2===0){
             return e
-        }else{
-            return "odd"
         }
-    } ));
+    });
+console.log(newMapArr);
+
+
+let newFilterArr = ranks.filter((e) => {
+        if(e%2===0){
+            return e
+        }
+    } );
+console.log(newFilterArr);
